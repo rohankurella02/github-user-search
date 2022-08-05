@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { GithubProvider } from './Components/API';
+import Particles from 'react-tsparticles';
+import Particleconfig from './Components/Particle/Particleconfig';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <GithubProvider>
+      <BrowserRouter>
+        <Particles params={Particleconfig}></Particles>
+        <App />
+      </BrowserRouter>
+    </GithubProvider>
   </React.StrictMode>
 );
 

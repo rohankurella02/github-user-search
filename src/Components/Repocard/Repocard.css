@@ -1,0 +1,16 @@
+.repo-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 7rem;
+  row-gap: 3rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.repo-card-item {
+  background-color: rgb(200, 197, 197);
+  border-radius: 30px;
+  padding: 1rem;
+  /* width: fit-content; */
+}

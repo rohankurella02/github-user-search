@@ -1,0 +1,59 @@
+.head {
+    display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        column-gap: 1rem;
+        margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #2f3234;
+    color: white;
+    padding: 30px;
+    min-width: 600px;
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+}
+
+.ufollow {
+    color: hsl(185, 62%, 45%);
+    max-height: 44px;
+    font-weight: 900;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border: 2px solid hsl(185, 62%, 45%);
+        padding: 0.25rem 0.75rem;
+        border-radius: 1rem;
+        text-transform: capitalize;
+        letter-spacing: 0.1rem;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        text-decoration: none;
+}
+
+.ufollow:hover {
+    background: var(--clr-primary-5);
+        color: var(--clr-white);
+}
+
+img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+h4 {
+    margin-bottom: 0.25rem;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}

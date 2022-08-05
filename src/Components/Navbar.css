@@ -1,0 +1,16 @@
+.Navbar {
+    padding: 1.5rem;
+        margin-bottom: 4rem;
+        background: black;
+        color: white;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto 100px;
+        justify-content: left;
+        align-items: center;
+        gap: 1.5rem;
+}
+
+.Navbar:hover {
+    cursor: pointer;
+}

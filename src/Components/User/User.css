@@ -1,0 +1,56 @@
+.user {
+    padding-top: 2rem;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+.foll {
+    height: 350px;
+    overflow-y: scroll;
+    /* border: 1px solid rgba(166, 165, 165, 0.46); */
+    z-index: -1;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+}
+
+.foll::-webkit-scrollbar {
+  width: 12px; 
+  border-radius: 16px;              /* width of the entire scrollbar */
+}
+.foll::-webkit-scrollbar-track {
+  background: none;        /* color of the tracking area */
+  border-radius: 16px; 
+}
+.foll::-webkit-scrollbar-thumb {
+  background-color: none;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #1c1f22;  /* creates padding around scroll thumb */
+  border-radius: 16px; 
+}
+
+.ubox {
+    background-color: #2f3234;
+    color: grey;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    font-weight: 700;
+        width: 95px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.fbox {
+    background-color: #2f3234;
+    color: grey;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    font-weight: 700;
+    width: 95px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

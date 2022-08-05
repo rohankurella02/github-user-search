@@ -1,0 +1,44 @@
+.followers {
+  background: #2f3234;
+  color: white;
+  min-width: 500px;
+  min-height: 400px;
+  position: relative;
+  padding: 25px;
+  /* overflow-y: scroll; */
+}
+
+.followers::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+.followers::-webkit-scrollbar-track {
+  background: #2f3234; /* color of the tracking area */
+}
+.followers::-webkit-scrollbar-thumb {
+  background-color: grey; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #2f3234; /* creates padding around scroll thumb */
+}
+
+.follower::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+.follower::-webkit-scrollbar-track {
+  background: #2f3234; /* color of the tracking area */
+}
+.follower::-webkit-scrollbar-thumb {
+  background-color: grey; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #1c1f22; /* creates padding around scroll thumb */
+}
+.follower {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.fimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
